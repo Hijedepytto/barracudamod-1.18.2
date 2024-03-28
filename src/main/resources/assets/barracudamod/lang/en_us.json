@@ -1,5 +1,8 @@
 {
   "item.barracudamod.aquatic_dust": "Aquatic Dust",
+  "item.barracudamod.sea_mineral": "Sea Mineral",
+  "item.barracudamod.sea_ingot": "Sea Ingot",
 
-  "block.barracudamod.aquatic_sand": "Aquatic Sand"
+  "block.barracudamod.aquatic_sand": "Aquatic Sand",
+  "block.barracudamod.poseidon": "Poseidon"
 }

@@ -10,6 +10,10 @@ import net.minecraft.util.registry.Registry;
 public class ModItems {
     public static final Item AQUATIC_DUST = registerItem("aquatic_dust",
             new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item SEA_INGOT = registerItem("sea_ingot",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
+    public static final Item SEA_MINERAL = registerItem("sea_mineral",
+            new Item(new FabricItemSettings().group(ItemGroup.MISC)));
 
     private static Item registerItem(String name, Item item){
         return Registry.register(Registry.ITEM, new Identifier(BarracudaMod.MOD_ID, name), item);

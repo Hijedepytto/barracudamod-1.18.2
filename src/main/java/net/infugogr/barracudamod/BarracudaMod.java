@@ -2,6 +2,7 @@ package net.infugogr.barracudamod;
 
 import net.fabricmc.api.ModInitializer;
 import net.infugogr.barracudamod.block.ModBlocks;
+import net.infugogr.barracudamod.block.entity.ModBlockEntities;
 import net.infugogr.barracudamod.item.ModItems;
 import net.infugogr.barracudamod.world.feature.ModConfiguredFeatures;
 import net.infugogr.barracudamod.world.gen.ModWorldGen;
@@ -20,5 +21,7 @@ public class BarracudaMod implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModBlockEntities.registerALLBlockEntities();
 	}
 }

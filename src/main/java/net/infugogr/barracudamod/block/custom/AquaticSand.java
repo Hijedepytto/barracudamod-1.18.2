@@ -1,4 +1,4 @@
-package net.infugogr.barracudamod.block;
+package net.infugogr.barracudamod.block.custom;
 
 import net.minecraft.block.FallingBlock;
 

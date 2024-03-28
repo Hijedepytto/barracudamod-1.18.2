@@ -20,6 +20,9 @@
   "entrypoints": {
     "main": [
       "net.infugogr.barracudamod.BarracudaMod"
+    ],
+    "client": [
+      "net.infugogr.barracudamod.BarracudaClientMod"
     ]
   },
   "mixins": [
